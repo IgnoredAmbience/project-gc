@@ -49,27 +49,41 @@ for _,f in IPairs(finds) do
   c.total = c.total + 1
 end
 
-local tbl = {{"Month", "Finds", "Average"}}
+local tbl = {{"Month", "Finds", "Average", "Complete?", "Qualifies?"}}
 local monthok = false
 for month = 1, 12 do
+  local complete = true
+  for day = 1, #c[month] do
+    complete = complete and (c[month][day] > 0)
+  end
+  
   local avg = c[month].sum / monthInfo.days[month]
-  TableInsert(tbl, {monthInfo.name[month], c[month].sum, StringFormat("%.2f", avg)})
-  monthok = monthok or c[month].sum > config.monthCount
+  
+  local qualifies = (complete and c[month].sum > config.monthCount)
+  monthok = monthok or qualifies
+  
+  TableInsert(tbl, {monthInfo.name[month], c[month].sum, StringFormat("%.2f", avg), complete, qualifies})  
 end
  
-local tbl2 = {{"Day", "Finds", "Average"}}
+local tbl2 = {{"Day", "Finds", "Average", "Complete?", "Qualifies?"}}
 
 local dayok
 for day = 1, 29 do
+  local daycomplete = true
+  for m = 1, 12 do
+    daycomplete = daycomplete and (c[m][day] > 0)
+  end
   local avg = c.sum[day] / 12
-  TableInsert(tbl2, {day, c.sum[day], StringFormat("%.2f", avg)})
-  dayok = dayok or c.sum[day] > config.dayCount
+  
+  local qualifies = daycomplete and c.sum[day] > config.dayCount
+  dayok = dayok or qualifies
+  
+  TableInsert(tbl2, {day, c.sum[day], StringFormat("%.2f", avg), daycomplete, qualifies})
 end
 
 
 local ok = monthok and dayok
---local html = "<div style='float: left'>"..PGC_CreateHTMLTable(tbl).."</div><div style='float:left'>"..PGC_CreateHTMLTable(tbl2).."</div><br clear='all'>"
-local html = PGC_CreateHTMLTable(c)
+local html = "<div style='float: left'>"..PGC_CreateHTMLTable(tbl).."</div><div style='float:left'>"..PGC_CreateHTMLTable(tbl2).."</div><br clear='all'>"
 local log = false
 
 return { ok = ok, log = log, html = html }
