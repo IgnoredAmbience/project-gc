@@ -1,0 +1,110 @@
+RubyShoos Challenge Caches
+==========================
+
+Missing Project GC Checkers
+---------------------------
+GC3GWH7 - Iconoclastic Bingo
+GC3MN9V - Expeditious Assiduous
+GC51B6F - Explorer 162
+GC4QZJY - Etthundra Linje Grid
+
+
+### Streaker
+GC3CCEY
+
+### Tribulation and Topography
+GC436TA
+GC436WJ
+GC436YR
+GC436ZN
+GC4H3PY
+
+### Church Micro
+GC4BA4C
+GC4BAF4
+GC5BAGY
+
+### On Tour
+GC4QEVT
+GC4QEW0
+GC4QEW4
+GC4QEW8
+GC4QEWF
+GW4QEWR
+GC4QEWX
+
+### I Love
+GC563Z0
+GC5647Y
+GC564A7
+GC564CF
+GC565DK
+
+### Golden Oldies
+GC5RBR9
+GC5RC0Z
+GC5RC34
+GC5RC43
+
+
+Have project GC Checkers
+------------------------
+### Streakers
+GC3CCFC
+GC3CCFX
+GC3CCGB
+GC3CCH0
+
+GC3MN1V
+GC3MN2R
+GC3MN3F
+GC3MN3K
+GC3MN3W
+GC3MN43
+GC3MN4J
+GC3MN4T
+GC3MN64
+GC3MN8B
+GC3MN8W
+GC3MN97
+GC3MN9P
+GC3MNAD
+GC3MNAY
+GC3MNBJ
+GC3MNBY
+GC3RC5P
+GC3RC6E
+
+GC361VE - Trio of Threes
+GC3YKPR - Duo of Twos
+GC3Z0PX - Solitary One
+GC41164 - Quadrant of Fours
+GC4R463 - Quincunx of Fives
+
+### Grid
+GC4QF15
+GC4QF19
+
+GC53YET - 21 Character Challenge
+
+### I Love
+GC564FA
+
+### International
+GC564G7
+GC564JB
+GC564M2
+GC564PA
+
+### Soup
+GC56H5F
+GC56H5N
+GC56H5Y
+GC56H64
+GC56H65
+GC56H69
+GC56H6E
+GC56H6K
+GC56H6R
+GC56H6T
+
