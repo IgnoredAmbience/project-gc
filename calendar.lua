@@ -1,5 +1,5 @@
 local args={...}
-local conf = args[1].config
+local config = args[1].config
 local profileName = args[1].profileName
 local profileId = args[1].profileId
 
@@ -39,7 +39,7 @@ for month = 1, 12 do
   local m = Date { month = month }
   local avg = months[month] / m:last_day():day()
   TableInsert(tbl, {m:month_name(true), months[month], StringFormat("%.2f", avg)})
-  monthok = monthok or months[month] > 620
+  monthok = monthok or months[month] > config.monthCount
 end
  
 local tbl2 = {{"Day", "Finds", "Average"}}
@@ -48,7 +48,7 @@ local dayok
 for day = 1, 29 do
   local avg = days[day] / 12
   TableInsert(tbl2, {day, days[day], StringFormat("%.2f", avg)})
-  dayok = dayok or days[day] > 240
+  dayok = dayok or days[day] > config.dayCount
 end
 
 
