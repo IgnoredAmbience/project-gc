@@ -5,12 +5,15 @@ Missing Project GC Checkers
 * `GC3GWH7 <http://coord.info/GC3GWH7>`_ - Iconoclastic Bingo
 * `GC3MN9V <http://coord.info/GC3MN9V>`_ - Expeditious Assiduous
 * `GC51B6F <http://coord.info/GC51B6F>`_ - Explorer 162
-* `GC4QZJY <http://coord.info/GC4QZJY>`_ - Etthundra Linje Grid
 * `GC56H69 <http://coord.info/GC56H69>`_ - ★ Soup Challenge Bonus
 
 Streaker
 ~~~~~~~~
 1. `GC3CCEY <http://coord.info/GC3CCEY>`_ - Best Day vs Longest Streak
+
+Grid
+~~~~
+2. `GC4QZJY <http://coord.info/GC4QZJY>`_ - Etthundra Linje Grid
 
 Tribulation and Topography
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -38,18 +41,18 @@ On Tour
 
 I ♥
 ~~~
-* `GC563Z0 <http://coord.info/GC563Z0>`_
-* `GC5647Y <http://coord.info/GC5647Y>`_
-* `GC564A7 <http://coord.info/GC564A7>`_
-* `GC564CF <http://coord.info/GC564CF>`_
-* `GC565DK <http://coord.info/GC565DK>`_
+* `GC563Z0 <http://coord.info/GC563Z0>`_ - Whereigos
+* `GC5647Y <http://coord.info/GC5647Y>`_ - Earthcaches
+* `GC564A7 <http://coord.info/GC564A7>`_ - Letterboxes
+* `GC564CF <http://coord.info/GC564CF>`_ - Virtuals
+* `GC564DK <http://coord.info/GC564DK>`_ - Multis
 
 Golden Oldies
 ~~~~~~~~~~~~~
-* `GC5RBR9 <http://coord.info/GC5RBR9>`_
-* `GC5RC0Z <http://coord.info/GC5RC0Z>`_
-* `GC5RC34 <http://coord.info/GC5RC34>`_
-* `GC5RC43 <http://coord.info/GC5RC43>`_
+* `GC5RBR9 <http://coord.info/GC5RBR9>`_ - International
+* `GC5RC0Z <http://coord.info/GC5RC0Z>`_ - Icons
+* `GC5RC34 <http://coord.info/GC5RC34>`_ - Sizes
+* `GC5RC43 <http://coord.info/GC5RC43>`_ - D/T
 
 
 Have project GC Checkers
@@ -95,8 +98,8 @@ N of Ns (DT Lines)
 
 Grid
 ~~~~
-1. `GC4QF15 <http://coord.info/GC4QF15>`_ `Checker <http://project-gc.com/Challenges/GC4QF15>`_ - Quinquaginta
-3. `GC4QF19 <http://coord.info/GC4QF19>`_ `Checker <http://project-gc.com/Challenges/GC4QF19>`_ - Dreifach Sprudelndes
+* `GC4QF15 <http://coord.info/GC4QF15>`_ `Checker <http://project-gc.com/Challenges/GC4QF15>`_ - 1. Quinquaginta
+* `GC4QF19 <http://coord.info/GC4QF19>`_ `Checker <http://project-gc.com/Challenges/GC4QF19>`_ - 3. Dreifach Sprudelndes
 
 I ♥
 ~~~
