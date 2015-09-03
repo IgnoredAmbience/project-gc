@@ -2,7 +2,6 @@ RubyShoos Challenge Caches
 ==========================
 Missing Project GC Checkers
 ---------------------------
-* `GC3GWH7 <http://coord.info/GC3GWH7>`_ - Iconoclastic Bingo
 * `GC3MN9V <http://coord.info/GC3MN9V>`_ - Expeditious Assiduous
 * `GC51B6F <http://coord.info/GC51B6F>`_ - Explorer 162
 * `GC56H69 <http://coord.info/GC56H69>`_ - ★ Soup Challenge Bonus
@@ -58,6 +57,7 @@ Golden Oldies
 Have project GC Checkers
 ------------------------
 * `GC53YET <http://coord.info/GC53YET>`_ `Checker <http://project-gc.com/Challenges/GC53YET>`_ - 21 Character Challenge
+* `GC3GWH7 <http://coord.info/GC3GWH7>`_ `Checker <http://project-gc.com/Challenges/GC3GWH7>`_ - Iconoclastic Bingo
 
 Streakers
 ~~~~~~~~~
