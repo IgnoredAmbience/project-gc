@@ -2,7 +2,6 @@ RubyShoos Challenge Caches
 ==========================
 Missing Project GC Checkers
 ---------------------------
-* `GC3MN9V <http://coord.info/GC3MN9V>`_ - Expeditious Assiduous
 * `GC51B6F <http://coord.info/GC51B6F>`_ - Explorer 162
 * `GC56H69 <http://coord.info/GC56H69>`_ - ★ Soup Challenge Bonus
 
@@ -87,6 +86,7 @@ Assiduous
 * `GC3MNBY <http://coord.info/GC3MNBY>`_ `Checker <http://project-gc.com/Challenges/GC3MNBY>`_ - Ethereal
 * `GC3RC5P <http://coord.info/GC3RC5P>`_ `Checker <http://project-gc.com/Challenges/GC3RC5P>`_ - Gregarious
 * `GC3RC6E <http://coord.info/GC3RC6E>`_ `Checker <http://project-gc.com/Challenges/GC3RC6E>`_ - Divergent
+* `GC3MN9V <http://coord.info/GC3MN9V>`_ `Checker <http://project-gc.com/Challenges/GC3MN9V>`_ - Expeditious
 
 N of Ns (DT Lines)
 ~~~~~~~~~~~~~~~~~~
