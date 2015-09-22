@@ -5,10 +5,6 @@ Missing Project GC Checkers
 * `GC51B6F <http://coord.info/GC51B6F>`_ - Explorer 162
 * `GC56H69 <http://coord.info/GC56H69>`_ - ★ Soup Challenge Bonus
 
-Streaker
-~~~~~~~~
-1. `GC3CCEY <http://coord.info/GC3CCEY>`_ - Best Day vs Longest Streak
-
 Grid
 ~~~~
 2. `GC4QZJY <http://coord.info/GC4QZJY>`_ - Etthundra Linje Grid
@@ -60,6 +56,7 @@ Have project GC Checkers
 
 Streakers
 ~~~~~~~~~
+1. `GC3CCEY <http://coord.info/GC3CCEY>`_ `Checker <http://project-gc.com/Challenges/GC3CCEY/16287>`_ - Best Day vs Longest Streak
 2. `GC3CCFC <http://coord.info/GC3CCFC>`_ `Checker <http://project-gc.com/Challenges/GC3CCFC>`_ - Slump vs Streak
 3. `GC3CCFX <http://coord.info/GC3CCFX>`_ `Checker <http://project-gc.com/Challenges/GC3CCFX>`_ - Unconventional
 4. `GC3CCGB <http://coord.info/GC3CCGB>`_ `Checker <http://project-gc.com/Challenges/GC3CCGB>`_ - Compressed Annum
