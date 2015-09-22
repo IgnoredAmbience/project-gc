@@ -71,7 +71,7 @@ Assiduous
 * `GC3MN2R <http://coord.info/GC3MN2R>`_ `Checker <http://project-gc.com/Challenges/GC3MN2R>`_ - Cosmopolitan
 * `GC3MN3F <http://coord.info/GC3MN3F>`_ `Checker <http://project-gc.com/Challenges/GC3MN3F>`_ - Terrestrial
 * `GC3MN3K <http://coord.info/GC3MN3K>`_ `Checker <http://project-gc.com/Challenges/GC3MN3K>`_ - Megacosm
-* `GC3MN3W <http://coord.info/GC3MN3W>`_ `Checker <http://project-gc.com/Challenges/GC3MN3W>`_ - Ecclesiastical
+* `GC3MN3W <http://coord.info/GC3MN3W>`_ `Checker <http://project-gc.com/Challenges/GC3MN3W/16284>`_ - Ecclesiastical
 * `GC3MN43 <http://coord.info/GC3MN43>`_ `Checker <http://project-gc.com/Challenges/GC3MN43>`_ - T&T
 * `GC3MN4J <http://coord.info/GC3MN4J>`_ `Checker <http://project-gc.com/Challenges/GC3MN4J>`_ - Manifold
 * `GC3MN4T <http://coord.info/GC3MN4T>`_ `Checker <http://project-gc.com/Challenges/GC3MN4T>`_ - Inscrutable
