@@ -36,8 +36,7 @@ local types = {
 }
 
 function MathRound(n)
-  local f = MathFloor(n)
-  return (n-f > 0.5 and MathCeil(n)) or f
+  return MathFloor(n + 0.5)
 end
 
 function inittbl(n, v)
