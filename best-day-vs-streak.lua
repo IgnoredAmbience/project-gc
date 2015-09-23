@@ -35,11 +35,10 @@ local eligibleBoundaries = {}
 
 local caches = PGC_GetFinds(profileId, { fields = { 'gccode', 'visitdate' }, order = 'OLDESTFIRST' })
 
-local ok = false
 local foundDate = nil
-local goodFind = true
-local foundBestStreak = ""
-local foundBestDay = ""
+local badFind = false
+local foundBestStreak = 0
+local foundBestDay = 0
 
 local prevDate = DateFormat:parse("1980-01-01")
 local prevCheck = false
@@ -71,26 +70,24 @@ for _, cache in IPairs(caches) do
 
   if cache.gccode == conf.gccode then
     foundDate = cache.visitdate
-    goodFind = check
+    badFind = not check
     foundBestStreak = bestStreak
     foundBestDay = bestDay
   end
-
-  ok = ok or check
 
   prevCheck = check
   prevDate = date
 end
 
-ok = ok and goodFind
+local ok = (foundDate and not badFind) or (not foundDate and prevCheck)
 
 local blurb
 if foundDate then
-  blurb = StringFormat("%s found this cache on %s. At this point their best streak was %d and best day was %d.",
-                       profileName, foundDate, foundBestStreak, foundBestDay)
+  blurb = StringFormat("%s found this cache on %s. At this point they were %seligible, their best streak was %d and best day was %d.",
+                       profileName, foundDate, (badFind and "in") or "", foundBestStreak, foundBestDay)
 else
-  blurb = StringFormat("%s is%s currently eligible to log this challenge, and has%s been in the past.",
-                             profileName, ((prevCheck and "") or " not"), ((ok and "") or " not"))
+  blurb = StringFormat("%s has not previously found this cache and is%s currently eligible to log this challenge.",
+                       profileName, (prevCheck and "") or " not")
 end
 local blurb2 = "The table below lists dates at which eligibility to log this cache starts and stops. The cache may only be logged during an eligible period."
 local tableHtml = "<table><tr style='font-weight:bold'><td>Date</td><td>Best Streak</td><td>Best Day</td><td/></tr>"
