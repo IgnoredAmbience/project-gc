@@ -42,7 +42,7 @@ local foundBestDay = 0
 
 local prevDate = DateFormat:parse("1980-01-01")
 local prevCheck = false
-for _, cache in IPairs(caches) do
+for idx, cache in IPairs(caches) do
   local date = DateFormat:parse(cache.visitdate)
   local diff = DateDiff(prevDate, date)
 
@@ -64,7 +64,7 @@ for _, cache in IPairs(caches) do
   if currentStreak > bestStreak then bestStreak = currentStreak end
 
   local check = checkFun(bestStreak, bestDay)
-  if (check and not prevCheck) or ((not check) and prevCheck) then
+  if (check and not prevCheck) or ((not check) and prevCheck) or (idx == #caches) then
     TableInsert(eligibleBoundaries, { date = cache.visitdate, bestStreak = bestStreak, bestDay = bestDay, check = check })
   end
 
